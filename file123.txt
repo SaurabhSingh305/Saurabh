@@ -1,0 +1,618 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="BD2.css" />
+        <title>
+            Blood Donation Management 
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+
+       <body class="tabs__body">
+        <h1 id='topline' style="font-family: Bahnshrift Light; background-color: rgb(255, 79, 70); text-align: center; color:rgb(255, 255, 255); font-size: 39px; max-width: 100%; max-height: 40%;">
+        + BLOOD DONATION CENTER +</h1> 
+           <div class="tabs">
+               <input class="tabs__radio" type="radio" name="tab-example" id="tab1" checked>
+               <label for="tab1" class="tabs__label">Home</label>
+               <div class="tabs__content">
+                   <!-- CONTENT 1 for tab #1 -->
+                   <img src="logo blood donate.jpg" alt=" try again" id="homeimglogo">
+                   <h1 id="headtexthome" style="font:bold 38px Franklin Gothic Medium;color: brown;" >Donate Blood To<br>Save Life</h1>
+                   <p id="frontpara">We have so many heroes who helped us <br> in 
+                    contributing towards the betterment of our India's Health Services</p>
+
+                    <button id="proceedbuttn" >Proceed</button>
+
+                    <hr width="1490px" >
+                    <div id="afterpara">
+                    <h3 id="mincontent" style="width: 850px;">TYPES OF DONATION</h3>
+                    <p  id ="para2">
+                    The average human body contains about five liters of blood, which is made of several cellular and non-cellular components such as <b>Red blood cell</b>, <b>Platelet</b>, and <b>Plasma</b>.<br><br>
+                    Each type of component has its unique properties and can be used for different indications. The donated blood is separated into these components by the blood centre and one donated unit can save upto four lives depending on the number of components separated from your blood.</p>
+                    
+                    <hr width="1490px" style="padding-bottom: 190px ;">  
+                    
+                    <div class="row">
+                        <div class="column">
+                        <p>
+                            <br><br><h4 style="text-align: center; font-size:18px; color: brown; font-family: Verdana">Packed Red Blood Cells(RBCs)</h4><br>
+                            <h4 style="text-align: center; color: rgb(255, 0, 0);">What is it?</h4><br>
+                            Blood Collected straight from the donor into a blood bag and mixed with an anticoagulant is called as whole blood. This collected whole blood is then centrifuged and red cell, platelets and plasma are separated. The separated Red cells are mixed with a preservative to be called as packed red blood cells.
+                            <h4 style="text-align: center;"><br>Who can donate?</h4><br>You need to be 18-65 years old, weight 45kg or more and be fit and healthy.
+                        </p>
+                        </div>
+                        <div class="column">
+                        <p>
+                            <br><br><h4 style="text-align: center; font-size:18px; color: brown; font-family: Verdana">Plasma</h4><br>
+                            <h4 style="text-align: center; color: rgb(255, 0, 0);">What is it?</h4><br>
+                            The straw-coloured liquid in which red blood cells, white blood cells, and platelets float in is called plasma.Contains special nutrients which can be used to create 18 different type of medical products to treat many different medical conditions. Plasma can be obtained from the collected whole blood after red blood cells and platelets have been separated.
+                            <h4 style="text-align: center;"><br>Who can donate?</h4><br>The donation criteria is similar to that of red blood cell. However, for apheresis plasma collection minimum weight is 50 kgs.
+                        </p>
+                        </div>
+                        <div class="column" >
+                        <p>
+                            <br><br><h4 style="text-align: center; font-size:18px; color: brown; font-family: Verdana">Platelets</h4><br>
+                            <h4 style="text-align: center; color: rgb(255, 0, 0);">What it is?</h4><br>
+                            These are cellular elements in blood which wedge together to help to clot and reduce bleeding. Always in high demand, Vital for people with low platelet count, like hematology and cancer patients.
+                            <h4 style="text-align: center;"><br>Who can donate?</h4><br>One can donate whole blood from which the blood centre will separate platelets from other components. Criteria similar to whole blood donation apply. Alternatively, one can donate using apheresis equipment where only platelets are collected and rest components are returned back to donate. One need to satisfy whole blood criteria and pre- donation screening which include negative infectious markers and platelet count >1,50,000 per microlitre of blood. Weight should be >50kgs.
+                        </p>
+                        </div>
+                    </div>
+
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="footer-col">
+                                    <h4>Get help</h4>
+                                    <ul>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer-col">
+                                    <h4>Support</h4>
+                                    <ul>
+                                        <li><a href="#">Donate for Welfare</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="social-links">
+                                    <h4>Follow us</h4>
+                                    <div>
+                                        <a href="#"><i class="fab fa-Facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-Twitter"></i></a>
+                                        <a href="#"><i class="fab fa-Instagram"></i></a>
+                                    </div>   
+                                    
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </footer>
+                    
+                    </div>
+               </div>
+   
+               <input class="tabs__radio" type="radio" name="tab-example" id="tab2"> <!--name should be same -->
+               <label for="tab2" class="tabs__label">Donors</label>
+                <div class="tabs__content">
+                    <div class="frty">
+                        
+                   <!-- CONTENT 2 for tab #2 -->
+                        <h1></h1><br>
+                        <h2>Donar Registration Form</h2><br><br>
+                        <form>
+                            <h3 class="head3">Customer Information</h3><br>
+                            <label for="name" class="fewtext">Name: </label><br>
+                            <input type="text" placeholder="First " class="fewtext" required>
+                            <input type="text" placeholder="Last " class="fewtext" required><br><br>
+                            
+                            <label for="DOB" class="fewtext">Date of Birth:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="Phone" class="fewtext">Phone Number:</label><br>
+                            <input type="date" class="fewtext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="number" class="fewtext"><br><br>
+
+                            <label for="email" class="fewtext">Email: </label><br>
+                            <input type="email" style="width: 300px;" class="fewtext"><br><br>
+                            <label for="state" class="fewtext">State: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="city"class="fewtext">City: </label><br>
+                            <input type="text" class="fewtext">
+                            <input type="text" class="fewtext">
+                        </form> <br><br>    
+                        
+                        <form>
+                            <h3 class="head3">Medical Information</h3><br>
+                            <label for="bloodgroup" class="fewtext">BloodGroup:</label>
+                            <input type="text" maxlength="3" onkeyup="this.value = this.value.toUpperCase();">
+                            <label for="gender" class="fewtext">Gender:</label>
+                                <select id="gender" name="gender" style="width: 150px; height: 30px;">
+                                <option value="default" selected>Select One</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="NS">Not Specified</option>
+                                </select><br><br>
+                            <label for="DOB" class="fewtext">Date of Birth</label>
+                            <input type="date" /><br><br>
+                            <label class="fewtext">Have you donated Blood Previously ?</label><br><br>
+                            <label><input id="option1" type="radio" name="opt1" value="op1" >Yes</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label><input id="option2" type="radio" name="opt1" value="op2" >No</label><br><br><br>
+                            <label for="wort1" class="fewtext">In last six months have you had any of the following ?</label><br><br>&nbsp;&nbsp;
+                            <label class="fewtext"><input id="rd1" type="checkbox" name="dr1" value="no" >No</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label class="fewtext"><input id="rd2" type="checkbox" name="dr2" value="Tatooing" >Tattooing</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label class="fewtext"><input id="rd3" type="checkbox" name="dr3" value="piercing" >Piercing</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label class="fewtext"><input id="rd4" type="checkbox" name="dr4" value="Dental" >Dental Extraction</label><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                            <label for="amount">Amount of Blood </label>
+                            <input type="number" style="width:50px; height:30px;">
+                            <br><br><input type="submit" value="Submit" style="font-family: Cambria;width:120px; height:40px;">   
+                            </form>
+                            
+                    </div>
+                </div>            
+                           
+                    
+                        
+                
+   
+               <input class="tabs__radio" type="radio" name="tab-example" id="tab3">
+               <label for="tab3" class="tabs__label">Request</label>
+               <div class="tabs__content">
+                    <div class="jkli">
+                   <!-- CONTENT 3 for tab #3 -->
+                        <div class="grid-container">
+                            <div class="grid-item" id="Oneg">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O-</h1>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10L</p>
+                            </div>
+                            <div class="grid-item" id="Opos">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O+</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4L</p>
+                            </div>
+                            <div class="grid-item" id="Apos">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A-</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5L</p>
+                            </div>
+                            <div class="grid-item" id="Aneg">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A+</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0L</p>
+                            </div>
+                            <div class="grid-item" id="Bpos">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B-</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4L</p>
+                            </div>
+                            <div class="grid-item" id="Bneg">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B+</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0L</p>
+                            </div>
+                            <div class="grid-item" id="ABpos">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AB+</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4L</p>
+                            </div>
+                            <div class="grid-item" id="ABneg">
+                                <img class='img2' src="drop img.jpg" alt="blood drop" align="right">
+                                <br><h1 class="font3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AB-</h1>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4L</p>
+                            </div>
+                            
+                        </div>
+                            <br><hr><br><div class="grid-container">
+                            <div class="grid-item" id="quick1" style="background-color: rgb(225, 224, 224);">
+                                <img src="people.jpg" alt="people" id="img5" align="right">
+                                <br><br><h3>14</h3>
+                                <p>Total Donars</p>
+                            </div>
+                            <div class="grid-item" id="quick2" style="background-color: rgb(225, 224, 224);;">
+                                <img src="plus.jpg" alt="donated" id="img6" align="right">
+                                <br><br><h3>10</h3>
+                                <p>Total Donated Today</p>
+                            </div>
+                            <div class="grid-item" id="quick3" style="background-color: rgb(225, 224, 224);;">
+                                <img src="menu.jpg" alt="Request" id="img7" align="right">
+                                <br><br><h3>3</h3>
+                                <p>Today's Requests</p>
+                            </div>
+                            <div class="grid-item" id="quick4" style="background-color: rgb(225, 224, 224);;">
+                                <img src="checked.jpg" alt="checked" id="img8" align="right">
+                                <br><br><h3>2</h3>
+                                <p>Todays Approved Requests</p>
+                            </div>
+                        </div>  
+                    </div>
+               </div>
+
+               <input class="tabs__radio" type="radio" name="tab-example" id="tab4">
+               <label for="tab4" class="tabs__label">Feedback</label>
+               <div class="tabs__content">
+                   <!-- CONTENT 4 for tab #4 -->
+
+                <div class="main2">
+                    <div class="img4"><img id="image6" src="doc pose.jpg" alt="doc pose image not shown"></div>
+                    <div class="section">
+                        <br><br><br><br><br><br>
+                        <section id="content3" align="left">
+                            <form id="firstcontent">
+    
+                                <div id="name">
+                                <label style="font-family: maiandra GD; font-size: 18px;">Full Name:
+                                    <input type="text" style="width: 300px; font-size: 16px;" />
+                                </label><br><br>
+                                </div>
+                                <div id="Email">
+                                <label style="font-family: maiandra GD; font-size: 18px;">Email:
+                                    &nbsp&nbsp&nbsp&nbsp<input type="email"  style="width: 300px; font-size: 16px;" required />
+                                </label><br><br>
+                                </div>
+                                <div id="Phone">
+                                <label style="font-family: maiandra GD; font-size: 18px;">Phone no.:
+                                <input type='number' style="width: 300px; font-size: 16px; margin: none;" required/>
+                                </label><br><br>
+                                </div>
+                                <div style="text-align: left;">
+                                <label for="bio" id="Feedback" >
+                                    <textarea name="Feedback" rows=" 5" cols="30" placeholder="Feedback..." style="margin-left: 40px;"></textarea>
+                                  </label><br><br>
+                                </div>
+                                <div align="CENTER">
+                                <input id="submit" type="submit" value="Send" style="font-family: Cambria; font-size: 22px; background-color: rgb(97, 239, 192); color:white; border-color:  rgb(97, 239, 192); border-radius: 10%; width: 150px; height: 50px;" >   
+                                </div>
+                                
+                            </form>    
+                    </div>
+                    
+                    </section>
+                    
+            
+                </div>
+
+
+
+               </div>
+           </div>
+
+       </body>
+</html>
+
+
+
+
+
+
+
+CSS code
+
+body{
+    margin: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+h1{
+
+}
+
+.tabs__body{
+    margin: 0;
+    
+ }   
+
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-family:Helvetica;
+    margin: 10px;
+}
+
+.tabs__label{
+    padding: 10px 19px;
+    cursor: pointer;
+    max-width: auto;
+ }
+
+.tabs__radio{
+    display: none;
+ }
+
+.tabs__content{
+    order: 1;
+    width: 100%;
+    /* border-bottom: 3px solid #fdfdfd; */
+    line-height: 1.5;
+    font-size: 0.9emm;
+    display: none;
+    height: 1500px;
+    
+}
+.tabs__radio:checked+.tabs__label {
+    font-weight: bold;
+    color: #009578;
+    border-bottom: 2px solid #009578;
+}
+.tabs__radio:checked+.tabs__label+.tabs__content {
+    display: initial;
+}
+#homeimglogo{
+    padding-left: 770px;
+}
+#headtexthome{
+    position: absolute;
+    top:270px;
+    left:140px;
+}
+#frontpara{
+    position: absolute;
+    top: 390px;
+    left:140px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+topline{
+
+}
+
+#proceedbuttn{
+    position: absolute;
+    top: 530px;
+    left: 180px;
+    width:150px;
+    height:40px;
+    font-size: medium;
+}
+#mincontent{
+    color: rgb(239, 48, 48);
+    font-size: 28px;
+    padding-left: 540px;
+
+}
+#para2{
+    position: absolute;
+    right:150px;
+    width:1200px;
+    text-align: center;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200&display=swap');
+    body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flexwrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    bottom:0;
+    margin-top: auto;
+}
+.footer-col{
+    width: 35%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color:rgb(89, 89, 238);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.social-links h4{
+    font-size: 18px;
+    color:rgb(89, 89, 238);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.footer-col height::before{
+    content:'';
+    Left:0;
+    position: absolute;
+    bottom: -10px;
+    background-color: rgb(230, 93, 93);
+    height:2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.social-links a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.2);
+    margin:10px 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 75%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+
+}
+.social-links a:hover{
+    color: #24262b;
+    background-color: #bbbbbb;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+#content3{
+    display: block;
+    margin-right: 200px;
+    margin-left: 0px;
+    padding-left: 180px;
+    padding-right: 190px;
+    margin-top: 0px;
+   
+    
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    padding-left: px;
+
+}
+#image6{
+    width: 600px;
+    height: 540px;
+    
+}
+.frty{
+    padding: 20px 10px 0 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    
+}
+.head3{
+    background-color: rgb(247, 80, 38);
+    width: 50%;
+    color: aliceblue;
+    padding-left: 10px;
+    height: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fewtext{
+    font-family:'Lucida Sans';
+    font-size:16px;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 2fr 2fr 2fr 2fr; */
+    row-gap: 70px;
+    column-gap: 12px;
+}
+
+.jkli{
+    padding:80px 100px 0 130px;
+    
+}
+
+.grid-item{
+    height: 120px;
+    width:230px;
+    
+}
+.img2{
+    width:80px;
+    height:80px;
+    mix-blend-mode: multiply;
+    
+}
+#img5{
+    width: 80px;
+    height:80px;
+    mix-blend-mode: multiply;
+    
+}
+#img6{
+    width: 50px;
+    height:50px;
+    mix-blend-mode: multiply;
+    
+}
+#img7{
+    width: 50px;
+    height:50px;
+    mix-blend-mode: multiply;
+    
+}
+#img8{
+    width: 80px;
+    height:80px;
+    mix-blend-mode: multiply;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,300&display=swap');
+
+.font3{
+    font-family: 'Poppins', sans-serif;
+    
+}
+#Oneg{
+    background-color: rgb(255, 243, 221);
+}
+#Opos {
+    background-color: rgb(255, 243, 221);
+}
+#Aneg{
+    background-color: rgb(255, 243, 221);
+}
+#Apos {
+    background-color: rgb(255, 243, 221);
+}
+#Bneg{
+    background-color: rgb(255, 243, 221);
+}
+#Bpos{
+    background-color: rgb(255, 243, 221);
+}
+#ABneg{
+    background-color: rgb(255, 243, 221);
+}
+#ABpos {
+    background-color: rgb(255, 243, 221);}
+
+
